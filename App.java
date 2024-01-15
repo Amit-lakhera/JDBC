@@ -7,10 +7,9 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws SQLException {
-/*
-        *Database d1 = new Database();
-        *d1.createTable();
-*/
+        Database d = new Database();
+        d.createTable();
+        
         Scanner input = new Scanner(System.in);
         System.out.print("1. Insert data");
         System.out.print("\t 2.Read data");
